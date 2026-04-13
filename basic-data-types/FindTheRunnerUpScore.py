@@ -9,7 +9,7 @@ if __name__ == '__main__':
         if num > first:
             second = first
             first = num
-        elif num > second and num != first:
+        elif second < num < first:
             second = num
 
     print(second)
